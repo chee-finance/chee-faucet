@@ -6,7 +6,9 @@
     "scripts": {
         "compile": "truffle compile",
         "deploy:dev": "truffle migrate --reset --network development",
-        "deploy:test": "truffle migrate --reset --network alfajores"
+        "deploy:celo0": "truffle migrate --reset --network alfajores",
+        "deploy:bsc0": "truffle migrate --reset --network bsc0",
+        "deploy:meter0": "truffle migrate --reset --network meter0"
     },
     "author": "desyn",
     "license": "ISC",
