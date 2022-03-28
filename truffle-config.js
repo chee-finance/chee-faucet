@@ -20,7 +20,7 @@ module.exports = {
             skipDryRun: true
         },
         bsc0: {
-            provider:  () => new HDWalletProvider([process.env.BSC_TESTNET_PK], process.env.BSC_TESTNET_HOST, 0, 2),
+            provider:  () => new HDWalletProvider([process.env.PRIVATE_KEY], process.env.BSC_TESTNET_HOST, 0, 2),
             network_id: 97,
             gasPrice: 10000000000,
             gas: 6900000,
@@ -28,7 +28,7 @@ module.exports = {
             skipDryRun: true
         },
         meter0: {
-            provider:  () => new HDWalletProvider([process.env.METER_TESTNET_PK], process.env.METER_TESTNET_HOST, 0, 2),
+            provider:  () => new HDWalletProvider([process.env.PRIVATE_KEY], process.env.METER_TESTNET_HOST, 0, 2),
             network_id: 83,
             gasPrice: 10000000000,
             gas: 6900000,
